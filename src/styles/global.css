@@ -1,0 +1,27 @@
+:root {
+  --gold: #986f16;
+  --gold-light: #c49a2a;
+  --cream: #f7f5f0;
+  --cream-warm: #fdf8f0;
+  --slate: #1e2028;
+  --slate-border: #2e3340;
+  --text: #1e2028;
+  --text-muted: #4a4540;
+  --text-slate-muted: #9ba3b0;
+  --section-pad: 48px 28px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: var(--text);
+  background: var(--cream);
+}
+
+h1, h2, h3 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
