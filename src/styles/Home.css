@@ -4,13 +4,14 @@
 	justify-content: space-between;
 	gap: 32px;
 	min-width: 60vh;
-	padding: 30px 150px;
+	margin: 30px 100px;
 }
 
 .home-text {
 	color: var(--slate);
 	font-size: clamp(1.25rem, 2vw, 1.75rem);
   	font-weight: 400;
+	padding-bottom: 100px;
 }
 
 .home-subtitle {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Diamond, MoveUpRight } from 'lucide-react'
+import { Diamond, ArrowUpRight } from 'lucide-react'
 import "../styles/sections.css"
 
 export default function Brand() {
@@ -14,9 +14,9 @@ export default function Brand() {
 
     <section id='brand' className='portfolio-section'>
       <div className='section-statement'>
-        <p >Charms Dancewear</p>
-        <span>custom handmade dancewear</span>
-        
+        <p >Charms Dancewear <br/>
+          <span>Custom hand crafted dancewear</span>
+        </p>
       </div>
       <div className='section-info'>
         <p>
@@ -27,7 +27,7 @@ export default function Brand() {
           target="_blank"
           className="section-link">
             visit charms dancewear 
-            <MoveUpRight/>
+            <ArrowUpRight/>
           </a>
       </div>
     </section>
