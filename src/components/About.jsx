@@ -14,7 +14,7 @@ export default function About() {
 
     <section id='about' className='portfolio-section'>
       <p className='section-statement'>
-        My foundation in ballet sharpened my precision, iterative thinking, and attention to detail long before I wrote a single line of code.
+        My foundation in ballet sharpened my precision, iterative thinking, and attention to detail.
       </p>
       <div>
         <p className='section-info'>
