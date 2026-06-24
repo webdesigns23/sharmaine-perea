@@ -1,7 +1,7 @@
 .loader {
   position: fixed;
   inset: 0;
-  background: rgb(42, 42, 43);
+  background: var(--slate);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,7 @@
   font-family: 'Georgia', serif;
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 400;
-  color: #f0ede8;
+  color: var(--cream);
   letter-spacing: .06em;
   margin-bottom: 12px;
   animation: beat-in .6s ease forwards;
@@ -25,14 +25,14 @@
   font-family: 'Georgia', serif;
   font-size: clamp(1rem, 3vw, 1.4rem);
   font-weight: 400;
-  color: #e2deda;
+  color: var(--cream);
   letter-spacing: .08em;
   opacity: 0;
   animation: beat-in .8s ease forwards;
 }
 
 .loader-beat:last-child {
-  color: rgb(136, 107, 13);
+  color: var(--gold);
   font-style: italic;
 }
 
