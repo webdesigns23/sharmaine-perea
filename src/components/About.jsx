@@ -13,9 +13,13 @@ export default function About() {
     </div>
 
     <section id='about' className='portfolio-section'>
-      <p>statement</p>
+      <p className='section-statement'>
+        My foundation in ballet sharpened my precision, iterative thinking, and attention to detail long before I wrote a single line of code.
+      </p>
       <div>
-        <p>more info</p>
+        <p className='section-info'>
+          I earned a BFA in Dance from UMKC and spent ten years as a professional ballet dancer with San Diego Ballet. When I retired in 2020, I turned my passion for dance into Charms Dancewear, designing and sewing dancewear for studios and companies nationwide. Stepping away from performing gave me space to explore what else I was capable of, which led me to Flatiron School, where I built a foundation in full-stack development. I've always been drawn to disciplines that reward precision and iteration, the stage taught me discipline, the business taught me systems thinking, and code gave me a new way to create.
+        </p>      
       </div>
     </section>
     </>

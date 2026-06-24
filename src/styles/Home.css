@@ -9,7 +9,7 @@
 
 .home-text {
 	color: var(--slate);
-	font-size: clamp(1.25rem, 2vw, 2rem);
+	font-size: clamp(1.25rem, 2vw, 1.75rem);
   	font-weight: 400;
 }
 
