@@ -1,7 +1,7 @@
 .section-divider {
   display: flex;
   align-items: center;
-  padding: 0 28px;
+  padding: 28px 50px;
   gap: 12px;
 }
 
@@ -12,7 +12,7 @@
 
 .section-divider .num { 
   font-family: sans-serif; 
-  font-size: 12px; color: var(--gold); 
+  font-size: 14px; color: var(--gold); 
   letter-spacing: .1em; 
   flex-shrink: 0; 
 }
@@ -21,6 +21,7 @@
   flex: 1; 
   height: 0.5px; 
   background: var(--gold); 
+  margin: 0px 20px
 }
 
 .section-divider .section-label { 
@@ -33,7 +34,6 @@
 }
 
 .portfolio-section {
-  padding: var(--section-pad);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
@@ -41,25 +41,30 @@
 }
 
 .section-statement {
-  font-size: clamp(1.25rem, 2.25vw, 1.5rem);
+  font-size: clamp(1.25rem, 2.25vw, 2.5rem);
   font-weight: 400;
   line-height: 1.35;
   color: var(--text);
   margin: 0;
-  padding: 10px 50px;
+  padding: 0px 50px;
+  text-align: center;
 }
 
 .section-statement span {
-  font-size: 23px;
+  font-size: 1.5rem;
   color: var(--gold);
   font-style: italic ;
 }
 
+.section-statement img {
+  width: 200px;
+}
+
 .section-info {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.85;
   color: var(--text-muted);
-  margin: 0 0 16px;  
+  margin: 50px; 
 }
 
 .section-link {
@@ -88,7 +93,20 @@
 .portfolio-footer {
   background: var(--slate);
   color: var(--slate-muted);
-  text-align: center;
-  padding: 20px;
+  padding: 8px;
   letter-spacing: .15rem;
+  font-size: .65rem;
+}
+
+/* ------------ development section ----------- */
+.section-divider.cream, .portfolio-section.cream, .section-statement.cream {
+  background: var(--cream-warm);
+  color: var(--slate);
+}
+
+
+/* ------------ development section ----------- */
+.section-divider.slate, .portfolio-section.slate, .section-statement.slate {
+  background: var(--slate);
+  color: var(--cream-warm);
 }

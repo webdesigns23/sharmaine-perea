@@ -1,23 +1,30 @@
 import React from 'react'
 import Projects from './Projects'
-import { Diamond } from 'lucide-react'
+import { Astroid } from 'lucide-react'
+import software from '../assets/images/software.png'
 import "../styles/sections.css"
 
 export default function Development() {
   return (
     <>
-    <div className="section-divider">
-      <span className='marker'><Diamond size={16}/></span>
+    <div id='development' className="section-divider slate">
+      <span className='marker'><Astroid size={16}/></span>
       <span className='num'>03</span>
       <div className='line-divider'></div>
       <span className='section-label'>Development</span>
     </div>
 
-    <section id='development' className='portfolio-section'>
-      <p className='section-statement'>Learning, Building, and Evolving through code</p>
+    <section  className='portfolio-section slate'>
+      <div className='section-statement slate'>
+        <img src={software} alt='computer'/>
+        <p >
+          Learning, building, and evolving through code
+        </p>
+      </div>
+      
       <div className='section-info'>
         <p>
-          After stepping away from dance, I found myself drawn to software engineering through the same process I'd always known — trial and error, taking something apart, fixing it, and building it back better. A teammate suggested I try a few online courses, and it immediately clicked. I went on to complete the Flatiron School Software Engineering program, building a foundation in JavaScript, React, Python, Flask, SQL, and PostgreSQL. The more I learned, the more it felt familiar — you're still building something from scratch, still solving problems, still refining until it works the way you want it to.
+          After stepping away from dance, I found myself drawn to software engineering through the same process I'd always known, trial and error, taking something apart, fixing it, and building it better. A teammate on my hockey team suggested I try a few online courses, and it immediately clicked. I went on to complete the Flatiron School Software Engineering program, building a foundation in JavaScript, React, Python, Flask, SQL, and PostgreSQL. The more I learned, the more it felt familiar. You're still building something from scratch, still solving problems, still refining until it works the way you want it to.
         </p>
       </div>
       

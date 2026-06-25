@@ -2,13 +2,11 @@
   --gold: #986f16;
   --gold-light: #c49a2a;
   --cream: #f7f5f0;
-  --cream-warm: #fdf8f0;
+  --cream-warm: #e0ddd8;
   --slate: #212329;
-  --slate-border: #2e3340;
   --text: #1e2028;
   --muted: #4a4540;
   --slate-muted: #9ba3b0;
-  --section-pad: 48px 28px;
 }
 
 html {
