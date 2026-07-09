@@ -6,7 +6,7 @@ import "../styles/sections.css"
 
 // Array of skills
 const languages = ['HTML5', 'CSS3', 'JavaScript', 'Node.js', 'React', 'Python', 'Flask', 'SQL', 'C', 'Github', 'Postman'];
-const other = ['Microsoft Office', 'Adobe Illustrator', 'Google Workspace'];
+const other = ['Linux CLI', 'Microsoft Office', 'Google Workspace','Adobe Illustrator', 'Figma'];
 
 export default function Development() {
   return (
