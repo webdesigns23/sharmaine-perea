@@ -42,11 +42,13 @@ function FeaturedCard({project}) {
 function ProjectCard({project}) {
 	return (
 		<div className='project-card'>
-			<img src={project.src} alt={project.name} className='proj-card-image'/>
 			<h3 className='proj-card-title'>
 				<Astroid size={14}/>
 				{" "} {project.name}
 			</h3>
+			<div className='image-container'>
+				<img src={project.src} alt={project.name} className='proj-card-image'/>
+			</div>
 			<p>{project.description}</p>
 			<ul>
 				{project.tech.map((t) => (

@@ -1,7 +1,7 @@
 import trivia from '../assets/images/trivia.PNG';
 import lunaluxe from "../assets/images/lunaluxe.jpg";
 import golf from "../assets/images/ParadoxGolf.png";
-import stitch from "../assets/images/stitch.PNG";
+import stitch from "../assets/images/ipad.PNG";
 
 export const featured = {
 	id: 1,
