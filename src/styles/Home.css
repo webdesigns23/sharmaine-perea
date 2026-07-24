@@ -1,6 +1,7 @@
 .home-section {
 	display: flex;
 	align-items: flex-end;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	min-width: 60vh;
 	margin: 23px;

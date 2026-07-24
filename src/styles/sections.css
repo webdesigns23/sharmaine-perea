@@ -1,7 +1,11 @@
+.quote {
+  padding: 0px 100px;
+}
+
 .section-divider {
   display: flex;
   align-items: center;
-  padding: 28px 50px;
+  padding: 24px 24px 0px 24px;
   gap: 12px;
   scroll-margin-top: 50px;
 }
@@ -22,12 +26,12 @@
   flex: 1; 
   height: 0.5px; 
   background: var(--gold); 
-  margin: 0px 20px
+  margin: 0px 8px
 }
 
 .section-divider .section-label { 
   font-family: sans-serif; 
-  font-size: 14px; 
+  font-size: 16px; 
   letter-spacing: .14em; 
   text-transform: uppercase; 
   color: var(--text-muted); 
@@ -36,19 +40,21 @@
 
 .portfolio-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
-  align-items: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 18px;
+  align-items: center;
+  padding: 24px;
 }
 
 .section-statement {
-  font-size: clamp(1.25rem, 2.25vw, 2.5rem);
+  font-size: clamp(1.25rem, 1.25vw, 2.5rem);
   font-weight: 400;
   line-height: 1.35;
-  color: var(--text);
-  margin: 0;
-  padding: 0px 50px;
+  color: var(--gold);
+  margin: 0px;
+  padding: 0px;
   text-align: center;
+  font-style:italic;
 }
 
 .section-statement span {
@@ -58,7 +64,8 @@
 }
 
 .section-statement img {
-  width: 200px;
+  max-width: 300px;
+  height: auto;
 }
 
 .section-info {
@@ -66,19 +73,17 @@
   line-height: 1.85;
   color: var(--text-muted);
   margin: 50px; 
+  text-align: center;
 }
 
 .section-link {
   font-family: sans-serif;
-  font-size: 16px;
-  font-weight: bold;  
+  font-size: 16px;  
   text-decoration: none;
   letter-spacing: .06em;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: var(--gold);
-  padding-bottom: 2px;
   display: inline-block;
-  margin-top: 16px;
   transition: color 0.2s; 
 }
 
@@ -110,6 +115,17 @@
 .section-divider.slate, .portfolio-section.slate, .section-statement.slate {
   background: var(--slate);
   color: var(--cream-warm);
+}
+
+.skills-section {
+  display: block;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .skill-container ul {
